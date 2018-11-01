@@ -1,0 +1,10 @@
+// Variable Overrides
+
+// Bootstrap Sass Imports
+@import "../../node_modules/bootstrap/scss/bootstrap";
+.nav-link:hover {
+    text-decoration: underline;
+}
+.nav-link:active {
+   text-emphasis: bold;
+} 
