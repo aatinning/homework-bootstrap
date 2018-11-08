@@ -6319,9 +6319,8 @@ a.text-dark:hover, a.text-dark:focus {
 .nav-link:hover {
   text-decoration: underline; }
 
-.active, .mybtn:hover {
-  background-color: #666;
-  color: white; }
+.nav-link:active {
+  font-weight: bold !important; }
 
 .jumbotron {
   font-family: 'Seaweed Script', cursive;
