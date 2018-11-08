@@ -2,9 +2,56 @@
 
 // Bootstrap Sass Imports
 @import "../../node_modules/bootstrap/scss/bootstrap";
+$dark-border: 3px solid black;
+
+.nav {
+    display: inline-block;
+    padding-left: 30px;
+}
 .nav-link:hover {
     text-decoration: underline;
 }
 .nav-link:active {
-   text-emphasis: bold;
-} 
+    font-weight: bold !important;
+  }
+  
+
+  .jumbotron {
+    font-family: 'Seaweed Script', cursive;
+    color: white;
+    background: url("../media/pirate-ship.jpg") no-repeat center;
+    background-size: cover;
+    min-height: 360px;
+    
+}
+h3 {
+    font-family: 'Seaweed Script', cursive;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#enchilada { //this is the main text
+float: right;
+padding-left: 30px;
+width: 800px;
+border-left: 1px dotted gray;
+}
+.container {
+    width:100%; 
+    padding: 0px;
+   
+  }
+  
+  #taco { // this is the byline
+    width: 200px;
+  position: left;
+  float:left;
+ margin-left: 10px;
+  }
+  
+  footer{
+      padding-top: 20px;
+      position: right;
+  }
